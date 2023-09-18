@@ -2,16 +2,16 @@ function calcular(operador, num1, num2) {
   let resultado;
 
   switch (operador) {
-    case '+':
+    case 'sumar':
       resultado = num1 + num2;
       break;
-    case '-':
+    case 'restar':
       resultado = num1 - num2;
       break;
-    case '*':
+    case 'multiplicar':
       resultado = num1 * num2;
       break;
-    case '/':
+    case 'dividir':
       resultado = num1 / num2;
       break;
     default:
