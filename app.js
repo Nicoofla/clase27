@@ -21,7 +21,7 @@ function calcular(operador, num1, num2) {
   return resultado;
 }
 
-const operador = '+';
+const operador = 'sumar';
 const num1 = 5;
 const num2 = 3;
 
